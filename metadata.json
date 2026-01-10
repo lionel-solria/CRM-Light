@@ -1,0 +1,5 @@
+{
+  "name": "LightCRM",
+  "description": "A collaborative email processing tool designed to bridge the gap between shared inboxes and Sellsy CRM. Features a 3-column layout for triage, workflow management, and a dedicated workspace for quilting and communication.",
+  "requestFramePermissions": []
+}
