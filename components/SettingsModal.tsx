@@ -68,7 +68,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose })
                  {activeTab === 'PROFILE' && (
                     <div className="space-y-6">
                         <div className="flex items-center gap-4">
-                            <img src="https://picsum.photos/seed/alice/200" className="w-16 h-16 rounded-full border-2 border-gray-200" />
+                            <img src="https://ui-avatars.com/api/?name=Alice&background=0D8ABC&color=fff&rounded=true&bold=true" className="w-16 h-16 rounded-full border-2 border-gray-200" />
                             <div>
                                 <button className="text-xs bg-white border border-gray-300 px-3 py-1.5 rounded font-medium hover:bg-gray-50">Changer l'avatar</button>
                             </div>

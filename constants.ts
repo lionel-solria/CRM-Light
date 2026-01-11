@@ -4,10 +4,10 @@ import { Task, TaskStatus, WorkflowStep, SellsyStatus, User } from './types';
 export const CURRENT_USER_ID = 'u1';
 
 export const USERS: User[] = [
-  { id: 'u1', name: 'Alice', initials: 'AL', avatar: 'https://picsum.photos/seed/alice/200' },
-  { id: 'u2', name: 'Bob', initials: 'BO', avatar: 'https://picsum.photos/seed/bob/200' },
-  { id: 'u3', name: 'Charlie', initials: 'CH', avatar: 'https://picsum.photos/seed/charlie/200' },
-  { id: 'u4', name: 'David', initials: 'DA', avatar: 'https://picsum.photos/seed/david/200' },
+  { id: 'u1', name: 'Alice', initials: 'AL', avatar: 'https://ui-avatars.com/api/?name=Alice&background=0D8ABC&color=fff&rounded=true&bold=true' },
+  { id: 'u2', name: 'Bob', initials: 'BO', avatar: 'https://ui-avatars.com/api/?name=Bob&background=E55934&color=fff&rounded=true&bold=true' },
+  { id: 'u3', name: 'Charlie', initials: 'CH', avatar: 'https://ui-avatars.com/api/?name=Charlie&background=1D9A6C&color=fff&rounded=true&bold=true' },
+  { id: 'u4', name: 'David', initials: 'DA', avatar: 'https://ui-avatars.com/api/?name=David&background=5A4E96&color=fff&rounded=true&bold=true' },
 ];
 
 export const MOCK_TASKS: Task[] = [
@@ -50,7 +50,7 @@ export const MOCK_TASKS: Task[] = [
         attachments: [
             { id: 'a1', name: 'Maquettes_Home_v3.fig', type: 'file', size: '12 MB', url: '#' },
             { id: 'a2', name: 'Cahier_Des_Charges.pdf', type: 'file', size: '1.4 MB', url: '#' },
-            { id: 'a3', name: 'logo_preview.png', type: 'image', size: '450 KB', url: 'https://picsum.photos/id/1/400/300' }
+            { id: 'a3', name: 'logo_preview.png', type: 'image', size: '450 KB', url: 'https://placehold.co/400x300/png?text=Logo+Preview' }
         ]
       }
     ],
@@ -172,7 +172,7 @@ export const MOCK_TASKS: Task[] = [
         content: 'Le bouton login ne marche plus sur mobile. Screenshot joint.',
         timestamp: new Date(Date.now() - 1000 * 60 * 60 * 5),
         attachments: [
-            { id: 'a5', name: 'bug_mobile.jpg', type: 'image', size: '2.1 MB', url: 'https://picsum.photos/id/2/300/600' }
+            { id: 'a5', name: 'bug_mobile.jpg', type: 'image', size: '2.1 MB', url: 'https://placehold.co/300x600/png?text=Bug+Mobile' }
         ]
       }
     ],
